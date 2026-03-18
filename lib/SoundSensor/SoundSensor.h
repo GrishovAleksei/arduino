@@ -1,6 +1,6 @@
 #pragma once
 #include <Arduino.h>
-#include "../Filter/MedianFilter.h"
+#include "MedianFilter.h"
 
 class SoundSensor {
   private:

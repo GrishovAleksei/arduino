@@ -3,7 +3,8 @@
 
 class Relay {
   private:
-    uint8_t _pin;
+    uint8_t _relayPin;
+    uint8_t _buttonPin;
     bool _state;
 
   public:
